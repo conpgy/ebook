@@ -1,18 +1,27 @@
 //
 //  GDAppDelegate.m
-//  爱阅读
+//  经典
 //
-//  Created by 彭根勇 on 14-8-18.
+//  Created by 彭根勇 on 14-8-7.
 //  Copyright (c) 2014年 conpgy. All rights reserved.
 //
 
 #import "GDAppDelegate.h"
+#import "GDTabBarController.h"
 
 @implementation GDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] init];
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = GDGlobalBgColor;
+    [self.window makeKeyAndVisible];
+    
+    self.window.rootViewController = [[GDTabBarController alloc] init];
+    
+//    [UMSocialData setAppKey:@"53f17c4dfd98c5f403023f37"];
+    
     return YES;
 }
 							

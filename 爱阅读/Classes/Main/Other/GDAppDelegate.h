@@ -1,8 +1,8 @@
 //
 //  GDAppDelegate.h
-//  爱阅读
+//  经典
 //
-//  Created by 彭根勇 on 14-8-18.
+//  Created by 彭根勇 on 14-8-7.
 //  Copyright (c) 2014年 conpgy. All rights reserved.
 //
 

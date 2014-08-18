@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="EK8-cv-rdG">
+            <connections>
+                <action selector="panSlider:" destination="Cqh-xc-KDn" id="eox-HZ-HYt"/>
+            </connections>
+        </panGestureRecognizer>
+        <view contentMode="scaleToFill" id="Cqh-xc-KDn" customClass="GDReadingToolbar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view alpha="0.49999999999999961" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ght-08-30X" userLabel="进度条背景">
+                    <rect key="frame" x="20" y="23.5" width="280" height="2"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lBH-0P-Sc4" userLabel="进度条">
+                    <rect key="frame" x="20" y="24" width="5" height="2"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="1" green="0.50196081399917603" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progressSlider" translatesAutoresizingMaskIntoConstraints="NO" id="GaL-gT-XlH" userLabel="滑块">
+                    <rect key="frame" x="11.5" y="17" width="17" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="EK8-cv-rdG" appends="YES" id="vvq-7S-3nY"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.96078431372549022" green="0.93725490196078431" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="progressView" destination="lBH-0P-Sc4" id="D1P-uV-Fyz"/>
+                <outlet property="slider" destination="GaL-gT-XlH" id="8XK-xe-kCI"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="progressSlider" width="17" height="17"/>
+    </resources>
+</document>

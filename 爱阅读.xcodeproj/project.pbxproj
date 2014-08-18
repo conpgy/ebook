@@ -12,15 +12,81 @@
 		AF3E296E19A23FC60026E43D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E296D19A23FC60026E43D /* UIKit.framework */; };
 		AF3E297419A23FC60026E43D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF3E297219A23FC60026E43D /* InfoPlist.strings */; };
 		AF3E297619A23FC60026E43D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E297519A23FC60026E43D /* main.m */; };
-		AF3E297A19A23FC60026E43D /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E297919A23FC60026E43D /* GDAppDelegate.m */; };
 		AF3E297D19A23FC60026E43D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF3E297B19A23FC60026E43D /* Main.storyboard */; };
-		AF3E298019A23FC60026E43D /* GDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E297F19A23FC60026E43D /* GDViewController.m */; };
 		AF3E298219A23FC60026E43D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF3E298119A23FC60026E43D /* Images.xcassets */; };
 		AF3E298919A23FC60026E43D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E298819A23FC60026E43D /* XCTest.framework */; };
 		AF3E298A19A23FC60026E43D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E296919A23FC60026E43D /* Foundation.framework */; };
 		AF3E298B19A23FC60026E43D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E296D19A23FC60026E43D /* UIKit.framework */; };
 		AF3E299319A23FC60026E43D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF3E299119A23FC60026E43D /* InfoPlist.strings */; };
 		AF3E299519A23FC60026E43D /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E299419A23FC60026E43D /* ___Tests.m */; };
+		AF3E2A1119A240000026E43D /* GDBookInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29A919A240000026E43D /* GDBookInfoViewController.m */; };
+		AF3E2A1219A240000026E43D /* GDBookInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29AA19A240000026E43D /* GDBookInfoViewController.xib */; };
+		AF3E2A1319A240000026E43D /* GDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29AC19A240000026E43D /* GDHomeViewController.m */; };
+		AF3E2A1419A240000026E43D /* GDReadingDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29AE19A240000026E43D /* GDReadingDetailViewController.m */; };
+		AF3E2A1519A240000026E43D /* GDReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29B019A240000026E43D /* GDReadingViewController.m */; };
+		AF3E2A1619A240000026E43D /* GDBook.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29B319A240000026E43D /* GDBook.m */; };
+		AF3E2A1719A240000026E43D /* GDBookHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29B519A240000026E43D /* GDBookHandler.m */; };
+		AF3E2A1819A240000026E43D /* GDBookText.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29B719A240000026E43D /* GDBookText.m */; };
+		AF3E2A1919A240000026E43D /* GDBookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29B919A240000026E43D /* GDBookTool.m */; };
+		AF3E2A1A19A240000026E43D /* GDBookListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29BD19A240000026E43D /* GDBookListCell.m */; };
+		AF3E2A1B19A240000026E43D /* GDBookListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29BE19A240000026E43D /* GDBookListCell.xib */; };
+		AF3E2A1C19A240000026E43D /* GDBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29C019A240000026E43D /* GDBookTableViewCell.m */; };
+		AF3E2A1D19A240000026E43D /* GDBookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29C119A240000026E43D /* GDBookTableViewCell.xib */; };
+		AF3E2A1E19A240000026E43D /* GDCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29C319A240000026E43D /* GDCollectionHeaderView.m */; };
+		AF3E2A1F19A240000026E43D /* GDCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29C419A240000026E43D /* GDCollectionHeaderView.xib */; };
+		AF3E2A2019A240000026E43D /* GDBookTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29C619A240000026E43D /* GDBookTextView.m */; };
+		AF3E2A2119A240000026E43D /* GDReadingToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29C819A240000026E43D /* GDReadingToolbar.m */; };
+		AF3E2A2219A240000026E43D /* GDReadingToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29C919A240000026E43D /* GDReadingToolbar.xib */; };
+		AF3E2A2319A240000026E43D /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29CD19A240000026E43D /* FMDatabase.m */; };
+		AF3E2A2419A240000026E43D /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29CF19A240000026E43D /* FMDatabaseAdditions.m */; };
+		AF3E2A2519A240000026E43D /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29D119A240000026E43D /* FMDatabasePool.m */; };
+		AF3E2A2619A240000026E43D /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29D319A240000026E43D /* FMDatabaseQueue.m */; };
+		AF3E2A2719A240000026E43D /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29D619A240000026E43D /* FMResultSet.m */; };
+		AF3E2A2819A240000026E43D /* MBProgressHUD+NJ.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29D919A240000026E43D /* MBProgressHUD+NJ.m */; };
+		AF3E2A2919A240000026E43D /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29DA19A240000026E43D /* MBProgressHUD.bundle */; };
+		AF3E2A2A19A240000026E43D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29DC19A240000026E43D /* MBProgressHUD.m */; };
+		AF3E2A2B19A240000026E43D /* MJArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29DF19A240000026E43D /* MJArgument.m */; };
+		AF3E2A2C19A240000026E43D /* MJIvar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29E219A240000026E43D /* MJIvar.m */; };
+		AF3E2A2D19A240000026E43D /* MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29E419A240000026E43D /* MJMember.m */; };
+		AF3E2A2E19A240000026E43D /* MJMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29E619A240000026E43D /* MJMethod.m */; };
+		AF3E2A2F19A240000026E43D /* MJType.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29E819A240000026E43D /* MJType.m */; };
+		AF3E2A3019A240000026E43D /* MJTypeEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29EA19A240000026E43D /* MJTypeEncoding.m */; };
+		AF3E2A3119A240000026E43D /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29EC19A240000026E43D /* NSObject+MJCoding.m */; };
+		AF3E2A3219A240000026E43D /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29EE19A240000026E43D /* NSObject+MJKeyValue.m */; };
+		AF3E2A3319A240000026E43D /* NSObject+MJMember.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29F019A240000026E43D /* NSObject+MJMember.m */; };
+		AF3E2A3419A240000026E43D /* GDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29F419A240000026E43D /* GDNavigationController.m */; };
+		AF3E2A3519A240000026E43D /* GDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29F619A240000026E43D /* GDTabBarController.m */; };
+		AF3E2A3619A240000026E43D /* GDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29F919A240000026E43D /* GDAppDelegate.m */; };
+		AF3E2A3719A240000026E43D /* GDReadingNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29FC19A240000026E43D /* GDReadingNavigationBar.m */; };
+		AF3E2A3819A240000026E43D /* GDReadingNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E29FD19A240000026E43D /* GDReadingNavigationBar.xib */; };
+		AF3E2A3919A240000026E43D /* GDTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E29FF19A240000026E43D /* GDTabBar.m */; };
+		AF3E2A3A19A240000026E43D /* GDLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E2A0319A240000026E43D /* GDLibraryViewController.m */; };
+		AF3E2A3B19A240000026E43D /* GDLibraryNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E2A0719A240000026E43D /* GDLibraryNavigationBar.m */; };
+		AF3E2A3C19A240000026E43D /* GDLibraryNavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A0819A240000026E43D /* GDLibraryNavigationBar.xib */; };
+		AF3E2A3D19A240000026E43D /* GDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E2A0C19A240000026E43D /* GDSettingViewController.m */; };
+		AF3E2A5219A240400026E43D /* aizaixianjingderizi.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A3F19A240400026E43D /* aizaixianjingderizi.txt */; };
+		AF3E2A5319A240400026E43D /* anshizhangda.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4019A240400026E43D /* anshizhangda.txt */; };
+		AF3E2A5419A240400026E43D /* bixuejian.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4119A240400026E43D /* bixuejian.txt */; };
+		AF3E2A5519A240400026E43D /* bubizhidaowoshishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4219A240400026E43D /* bubizhidaowoshishui.txt */; };
+		AF3E2A5619A240400026E43D /* dangnigudannihuixiangqishui.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4319A240400026E43D /* dangnigudannihuixiangqishui.txt */; };
+		AF3E2A5719A240400026E43D /* hudielaiguozheshijie.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4419A240400026E43D /* hudielaiguozheshijie.txt */; };
+		AF3E2A5819A240400026E43D /* liaiyigeIDdejuli.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4519A240400026E43D /* liaiyigeIDdejuli.txt */; };
+		AF3E2A5919A240400026E43D /* shalou.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4619A240400026E43D /* shalou.txt */; };
+		AF3E2A5A19A240400026E43D /* shinian.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4719A240400026E43D /* shinian.txt */; };
+		AF3E2A5B19A240400026E43D /* tangyi.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4819A240400026E43D /* tangyi.txt */; };
+		AF3E2A5C19A240400026E43D /* tiaopin.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4919A240400026E43D /* tiaopin.txt */; };
+		AF3E2A5D19A240400026E43D /* wobushinideyuanjia.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4A19A240400026E43D /* wobushinideyuanjia.txt */; };
+		AF3E2A5E19A240400026E43D /* woyaowomenzaiyiqi.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4B19A240400026E43D /* woyaowomenzaiyiqi.txt */; };
+		AF3E2A5F19A240400026E43D /* xiaofudequnbai.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4C19A240400026E43D /* xiaofudequnbai.txt */; };
+		AF3E2A6019A240400026E43D /* xiaoyaodejinsechengbao.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4D19A240400026E43D /* xiaoyaodejinsechengbao.txt */; };
+		AF3E2A6119A240400026E43D /* xinjing.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4E19A240400026E43D /* xinjing.txt */; };
+		AF3E2A6219A240400026E43D /* zuishuxidemoshengren.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A4F19A240400026E43D /* zuishuxidemoshengren.txt */; };
+		AF3E2A6319A240400026E43D /* zuoer.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A5019A240400026E43D /* zuoer.txt */; };
+		AF3E2A6419A240400026E43D /* zuoerzhongjie.txt in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A5119A240400026E43D /* zuoerzhongjie.txt */; };
+		AF3E2A6619A240DC0026E43D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3E2A6519A240DC0026E43D /* libsqlite3.dylib */; };
+		AF3E2A6D19A241D30026E43D /* UIImage+extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E2A6A19A241D30026E43D /* UIImage+extension.m */; };
+		AF3E2A6E19A241D30026E43D /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = AF3E2A6C19A241D30026E43D /* UIView+Extension.m */; };
+		AF3E2A7019A2437C0026E43D /* books.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AF3E2A6F19A2437C0026E43D /* books.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +108,123 @@
 		AF3E297319A23FC60026E43D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF3E297519A23FC60026E43D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF3E297719A23FC60026E43D /* 爱阅读-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "爱阅读-Prefix.pch"; sourceTree = "<group>"; };
-		AF3E297819A23FC60026E43D /* GDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
-		AF3E297919A23FC60026E43D /* GDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
 		AF3E297C19A23FC60026E43D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AF3E297E19A23FC60026E43D /* GDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GDViewController.h; sourceTree = "<group>"; };
-		AF3E297F19A23FC60026E43D /* GDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDViewController.m; sourceTree = "<group>"; };
 		AF3E298119A23FC60026E43D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AF3E298719A23FC60026E43D /* 爱阅读Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "爱阅读Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF3E298819A23FC60026E43D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		AF3E299019A23FC60026E43D /* 爱阅读Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "爱阅读Tests-Info.plist"; sourceTree = "<group>"; };
 		AF3E299219A23FC60026E43D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AF3E299419A23FC60026E43D /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		AF3E29A819A240000026E43D /* GDBookInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookInfoViewController.h; sourceTree = "<group>"; };
+		AF3E29A919A240000026E43D /* GDBookInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookInfoViewController.m; sourceTree = "<group>"; };
+		AF3E29AA19A240000026E43D /* GDBookInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDBookInfoViewController.xib; sourceTree = "<group>"; };
+		AF3E29AB19A240000026E43D /* GDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDHomeViewController.h; sourceTree = "<group>"; };
+		AF3E29AC19A240000026E43D /* GDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDHomeViewController.m; sourceTree = "<group>"; };
+		AF3E29AD19A240000026E43D /* GDReadingDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDReadingDetailViewController.h; sourceTree = "<group>"; };
+		AF3E29AE19A240000026E43D /* GDReadingDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDReadingDetailViewController.m; sourceTree = "<group>"; };
+		AF3E29AF19A240000026E43D /* GDReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDReadingViewController.h; sourceTree = "<group>"; };
+		AF3E29B019A240000026E43D /* GDReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDReadingViewController.m; sourceTree = "<group>"; };
+		AF3E29B219A240000026E43D /* GDBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBook.h; sourceTree = "<group>"; };
+		AF3E29B319A240000026E43D /* GDBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBook.m; sourceTree = "<group>"; };
+		AF3E29B419A240000026E43D /* GDBookHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookHandler.h; sourceTree = "<group>"; };
+		AF3E29B519A240000026E43D /* GDBookHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookHandler.m; sourceTree = "<group>"; };
+		AF3E29B619A240000026E43D /* GDBookText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookText.h; sourceTree = "<group>"; };
+		AF3E29B719A240000026E43D /* GDBookText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookText.m; sourceTree = "<group>"; };
+		AF3E29B819A240000026E43D /* GDBookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookTool.h; sourceTree = "<group>"; };
+		AF3E29B919A240000026E43D /* GDBookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookTool.m; sourceTree = "<group>"; };
+		AF3E29BC19A240000026E43D /* GDBookListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookListCell.h; sourceTree = "<group>"; };
+		AF3E29BD19A240000026E43D /* GDBookListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookListCell.m; sourceTree = "<group>"; };
+		AF3E29BE19A240000026E43D /* GDBookListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDBookListCell.xib; sourceTree = "<group>"; };
+		AF3E29BF19A240000026E43D /* GDBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookTableViewCell.h; sourceTree = "<group>"; };
+		AF3E29C019A240000026E43D /* GDBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookTableViewCell.m; sourceTree = "<group>"; };
+		AF3E29C119A240000026E43D /* GDBookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDBookTableViewCell.xib; sourceTree = "<group>"; };
+		AF3E29C219A240000026E43D /* GDCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDCollectionHeaderView.h; sourceTree = "<group>"; };
+		AF3E29C319A240000026E43D /* GDCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDCollectionHeaderView.m; sourceTree = "<group>"; };
+		AF3E29C419A240000026E43D /* GDCollectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDCollectionHeaderView.xib; sourceTree = "<group>"; };
+		AF3E29C519A240000026E43D /* GDBookTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDBookTextView.h; sourceTree = "<group>"; };
+		AF3E29C619A240000026E43D /* GDBookTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDBookTextView.m; sourceTree = "<group>"; };
+		AF3E29C719A240000026E43D /* GDReadingToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDReadingToolbar.h; sourceTree = "<group>"; };
+		AF3E29C819A240000026E43D /* GDReadingToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDReadingToolbar.m; sourceTree = "<group>"; };
+		AF3E29C919A240000026E43D /* GDReadingToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDReadingToolbar.xib; sourceTree = "<group>"; };
+		AF3E29CC19A240000026E43D /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		AF3E29CD19A240000026E43D /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		AF3E29CE19A240000026E43D /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		AF3E29CF19A240000026E43D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		AF3E29D019A240000026E43D /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		AF3E29D119A240000026E43D /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		AF3E29D219A240000026E43D /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		AF3E29D319A240000026E43D /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		AF3E29D419A240000026E43D /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		AF3E29D519A240000026E43D /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		AF3E29D619A240000026E43D /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		AF3E29D819A240000026E43D /* MBProgressHUD+NJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+NJ.h"; sourceTree = "<group>"; };
+		AF3E29D919A240000026E43D /* MBProgressHUD+NJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+NJ.m"; sourceTree = "<group>"; };
+		AF3E29DA19A240000026E43D /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		AF3E29DB19A240000026E43D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		AF3E29DC19A240000026E43D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		AF3E29DE19A240000026E43D /* MJArgument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJArgument.h; sourceTree = "<group>"; };
+		AF3E29DF19A240000026E43D /* MJArgument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJArgument.m; sourceTree = "<group>"; };
+		AF3E29E019A240000026E43D /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		AF3E29E119A240000026E43D /* MJIvar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJIvar.h; sourceTree = "<group>"; };
+		AF3E29E219A240000026E43D /* MJIvar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJIvar.m; sourceTree = "<group>"; };
+		AF3E29E319A240000026E43D /* MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMember.h; sourceTree = "<group>"; };
+		AF3E29E419A240000026E43D /* MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMember.m; sourceTree = "<group>"; };
+		AF3E29E519A240000026E43D /* MJMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJMethod.h; sourceTree = "<group>"; };
+		AF3E29E619A240000026E43D /* MJMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJMethod.m; sourceTree = "<group>"; };
+		AF3E29E719A240000026E43D /* MJType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJType.h; sourceTree = "<group>"; };
+		AF3E29E819A240000026E43D /* MJType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJType.m; sourceTree = "<group>"; };
+		AF3E29E919A240000026E43D /* MJTypeEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJTypeEncoding.h; sourceTree = "<group>"; };
+		AF3E29EA19A240000026E43D /* MJTypeEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJTypeEncoding.m; sourceTree = "<group>"; };
+		AF3E29EB19A240000026E43D /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		AF3E29EC19A240000026E43D /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		AF3E29ED19A240000026E43D /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		AF3E29EE19A240000026E43D /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		AF3E29EF19A240000026E43D /* NSObject+MJMember.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJMember.h"; sourceTree = "<group>"; };
+		AF3E29F019A240000026E43D /* NSObject+MJMember.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJMember.m"; sourceTree = "<group>"; };
+		AF3E29F319A240000026E43D /* GDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDNavigationController.h; sourceTree = "<group>"; };
+		AF3E29F419A240000026E43D /* GDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDNavigationController.m; sourceTree = "<group>"; };
+		AF3E29F519A240000026E43D /* GDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabBarController.h; sourceTree = "<group>"; };
+		AF3E29F619A240000026E43D /* GDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBarController.m; sourceTree = "<group>"; };
+		AF3E29F819A240000026E43D /* GDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDAppDelegate.h; sourceTree = "<group>"; };
+		AF3E29F919A240000026E43D /* GDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDAppDelegate.m; sourceTree = "<group>"; };
+		AF3E29FB19A240000026E43D /* GDReadingNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDReadingNavigationBar.h; sourceTree = "<group>"; };
+		AF3E29FC19A240000026E43D /* GDReadingNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDReadingNavigationBar.m; sourceTree = "<group>"; };
+		AF3E29FD19A240000026E43D /* GDReadingNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDReadingNavigationBar.xib; sourceTree = "<group>"; };
+		AF3E29FE19A240000026E43D /* GDTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDTabBar.h; sourceTree = "<group>"; };
+		AF3E29FF19A240000026E43D /* GDTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDTabBar.m; sourceTree = "<group>"; };
+		AF3E2A0219A240000026E43D /* GDLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLibraryViewController.h; sourceTree = "<group>"; };
+		AF3E2A0319A240000026E43D /* GDLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLibraryViewController.m; sourceTree = "<group>"; };
+		AF3E2A0619A240000026E43D /* GDLibraryNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDLibraryNavigationBar.h; sourceTree = "<group>"; };
+		AF3E2A0719A240000026E43D /* GDLibraryNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDLibraryNavigationBar.m; sourceTree = "<group>"; };
+		AF3E2A0819A240000026E43D /* GDLibraryNavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GDLibraryNavigationBar.xib; sourceTree = "<group>"; };
+		AF3E2A0B19A240000026E43D /* GDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDSettingViewController.h; sourceTree = "<group>"; };
+		AF3E2A0C19A240000026E43D /* GDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDSettingViewController.m; sourceTree = "<group>"; };
+		AF3E2A3F19A240400026E43D /* aizaixianjingderizi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aizaixianjingderizi.txt; sourceTree = "<group>"; };
+		AF3E2A4019A240400026E43D /* anshizhangda.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = anshizhangda.txt; sourceTree = "<group>"; };
+		AF3E2A4119A240400026E43D /* bixuejian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bixuejian.txt; sourceTree = "<group>"; };
+		AF3E2A4219A240400026E43D /* bubizhidaowoshishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bubizhidaowoshishui.txt; sourceTree = "<group>"; };
+		AF3E2A4319A240400026E43D /* dangnigudannihuixiangqishui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dangnigudannihuixiangqishui.txt; sourceTree = "<group>"; };
+		AF3E2A4419A240400026E43D /* hudielaiguozheshijie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = hudielaiguozheshijie.txt; sourceTree = "<group>"; };
+		AF3E2A4519A240400026E43D /* liaiyigeIDdejuli.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = liaiyigeIDdejuli.txt; sourceTree = "<group>"; };
+		AF3E2A4619A240400026E43D /* shalou.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shalou.txt; sourceTree = "<group>"; };
+		AF3E2A4719A240400026E43D /* shinian.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shinian.txt; sourceTree = "<group>"; };
+		AF3E2A4819A240400026E43D /* tangyi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tangyi.txt; sourceTree = "<group>"; };
+		AF3E2A4919A240400026E43D /* tiaopin.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = tiaopin.txt; sourceTree = "<group>"; };
+		AF3E2A4A19A240400026E43D /* wobushinideyuanjia.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wobushinideyuanjia.txt; sourceTree = "<group>"; };
+		AF3E2A4B19A240400026E43D /* woyaowomenzaiyiqi.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = woyaowomenzaiyiqi.txt; sourceTree = "<group>"; };
+		AF3E2A4C19A240400026E43D /* xiaofudequnbai.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaofudequnbai.txt; sourceTree = "<group>"; };
+		AF3E2A4D19A240400026E43D /* xiaoyaodejinsechengbao.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xiaoyaodejinsechengbao.txt; sourceTree = "<group>"; };
+		AF3E2A4E19A240400026E43D /* xinjing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = xinjing.txt; sourceTree = "<group>"; };
+		AF3E2A4F19A240400026E43D /* zuishuxidemoshengren.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuishuxidemoshengren.txt; sourceTree = "<group>"; };
+		AF3E2A5019A240400026E43D /* zuoer.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoer.txt; sourceTree = "<group>"; };
+		AF3E2A5119A240400026E43D /* zuoerzhongjie.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zuoerzhongjie.txt; sourceTree = "<group>"; };
+		AF3E2A6519A240DC0026E43D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AF3E2A6819A241D30026E43D /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		AF3E2A6919A241D30026E43D /* UIImage+extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+extension.h"; sourceTree = "<group>"; };
+		AF3E2A6A19A241D30026E43D /* UIImage+extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+extension.m"; sourceTree = "<group>"; };
+		AF3E2A6B19A241D30026E43D /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		AF3E2A6C19A241D30026E43D /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		AF3E2A6F19A2437C0026E43D /* books.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = books.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +232,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3E2A6619A240DC0026E43D /* libsqlite3.dylib in Frameworks */,
 				AF3E296C19A23FC60026E43D /* CoreGraphics.framework in Frameworks */,
 				AF3E296E19A23FC60026E43D /* UIKit.framework in Frameworks */,
 				AF3E296A19A23FC60026E43D /* Foundation.framework in Frameworks */,
@@ -101,6 +274,7 @@
 		AF3E296819A23FC60026E43D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AF3E2A6519A240DC0026E43D /* libsqlite3.dylib */,
 				AF3E296919A23FC60026E43D /* Foundation.framework */,
 				AF3E296B19A23FC60026E43D /* CoreGraphics.framework */,
 				AF3E296D19A23FC60026E43D /* UIKit.framework */,
@@ -112,11 +286,7 @@
 		AF3E296F19A23FC60026E43D /* 爱阅读 */ = {
 			isa = PBXGroup;
 			children = (
-				AF3E297819A23FC60026E43D /* GDAppDelegate.h */,
-				AF3E297919A23FC60026E43D /* GDAppDelegate.m */,
-				AF3E297B19A23FC60026E43D /* Main.storyboard */,
-				AF3E297E19A23FC60026E43D /* GDViewController.h */,
-				AF3E297F19A23FC60026E43D /* GDViewController.m */,
+				AF3E299E19A240000026E43D /* Classes */,
 				AF3E298119A23FC60026E43D /* Images.xcassets */,
 				AF3E297019A23FC60026E43D /* Supporting Files */,
 			);
@@ -126,6 +296,9 @@
 		AF3E297019A23FC60026E43D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AF3E2A6F19A2437C0026E43D /* books.sqlite */,
+				AF3E2A3E19A240400026E43D /* books */,
+				AF3E297B19A23FC60026E43D /* Main.storyboard */,
 				AF3E297119A23FC60026E43D /* 爱阅读-Info.plist */,
 				AF3E297219A23FC60026E43D /* InfoPlist.strings */,
 				AF3E297519A23FC60026E43D /* main.m */,
@@ -150,6 +323,312 @@
 				AF3E299119A23FC60026E43D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF3E299E19A240000026E43D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29CA19A240000026E43D /* Lib */,
+				AF3E29F119A240000026E43D /* Main */,
+				AF3E29A519A240000026E43D /* Home */,
+				AF3E2A0019A240000026E43D /* Mark */,
+				AF3E2A0919A240000026E43D /* Setting */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		AF3E29A519A240000026E43D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29A619A240000026E43D /* Controller */,
+				AF3E29B119A240000026E43D /* Model */,
+				AF3E29BA19A240000026E43D /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		AF3E29A619A240000026E43D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29A719A240000026E43D /* BookInfo */,
+				AF3E29AD19A240000026E43D /* GDReadingDetailViewController.h */,
+				AF3E29AE19A240000026E43D /* GDReadingDetailViewController.m */,
+				AF3E29AF19A240000026E43D /* GDReadingViewController.h */,
+				AF3E29B019A240000026E43D /* GDReadingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3E29A719A240000026E43D /* BookInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29A819A240000026E43D /* GDBookInfoViewController.h */,
+				AF3E29A919A240000026E43D /* GDBookInfoViewController.m */,
+				AF3E29AA19A240000026E43D /* GDBookInfoViewController.xib */,
+				AF3E29AB19A240000026E43D /* GDHomeViewController.h */,
+				AF3E29AC19A240000026E43D /* GDHomeViewController.m */,
+			);
+			path = BookInfo;
+			sourceTree = "<group>";
+		};
+		AF3E29B119A240000026E43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29B219A240000026E43D /* GDBook.h */,
+				AF3E29B319A240000026E43D /* GDBook.m */,
+				AF3E29B419A240000026E43D /* GDBookHandler.h */,
+				AF3E29B519A240000026E43D /* GDBookHandler.m */,
+				AF3E29B619A240000026E43D /* GDBookText.h */,
+				AF3E29B719A240000026E43D /* GDBookText.m */,
+				AF3E29B819A240000026E43D /* GDBookTool.h */,
+				AF3E29B919A240000026E43D /* GDBookTool.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF3E29BA19A240000026E43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29BB19A240000026E43D /* Cell */,
+				AF3E29C519A240000026E43D /* GDBookTextView.h */,
+				AF3E29C619A240000026E43D /* GDBookTextView.m */,
+				AF3E29C719A240000026E43D /* GDReadingToolbar.h */,
+				AF3E29C819A240000026E43D /* GDReadingToolbar.m */,
+				AF3E29C919A240000026E43D /* GDReadingToolbar.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF3E29BB19A240000026E43D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29BC19A240000026E43D /* GDBookListCell.h */,
+				AF3E29BD19A240000026E43D /* GDBookListCell.m */,
+				AF3E29BE19A240000026E43D /* GDBookListCell.xib */,
+				AF3E29BF19A240000026E43D /* GDBookTableViewCell.h */,
+				AF3E29C019A240000026E43D /* GDBookTableViewCell.m */,
+				AF3E29C119A240000026E43D /* GDBookTableViewCell.xib */,
+				AF3E29C219A240000026E43D /* GDCollectionHeaderView.h */,
+				AF3E29C319A240000026E43D /* GDCollectionHeaderView.m */,
+				AF3E29C419A240000026E43D /* GDCollectionHeaderView.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		AF3E29CA19A240000026E43D /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29CB19A240000026E43D /* fmdb */,
+				AF3E29D719A240000026E43D /* MBProgressHUD */,
+				AF3E29DD19A240000026E43D /* MJExtension */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		AF3E29CB19A240000026E43D /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29CC19A240000026E43D /* FMDatabase.h */,
+				AF3E29CD19A240000026E43D /* FMDatabase.m */,
+				AF3E29CE19A240000026E43D /* FMDatabaseAdditions.h */,
+				AF3E29CF19A240000026E43D /* FMDatabaseAdditions.m */,
+				AF3E29D019A240000026E43D /* FMDatabasePool.h */,
+				AF3E29D119A240000026E43D /* FMDatabasePool.m */,
+				AF3E29D219A240000026E43D /* FMDatabaseQueue.h */,
+				AF3E29D319A240000026E43D /* FMDatabaseQueue.m */,
+				AF3E29D419A240000026E43D /* FMDB.h */,
+				AF3E29D519A240000026E43D /* FMResultSet.h */,
+				AF3E29D619A240000026E43D /* FMResultSet.m */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		AF3E29D719A240000026E43D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29D819A240000026E43D /* MBProgressHUD+NJ.h */,
+				AF3E29D919A240000026E43D /* MBProgressHUD+NJ.m */,
+				AF3E29DA19A240000026E43D /* MBProgressHUD.bundle */,
+				AF3E29DB19A240000026E43D /* MBProgressHUD.h */,
+				AF3E29DC19A240000026E43D /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		AF3E29DD19A240000026E43D /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29DE19A240000026E43D /* MJArgument.h */,
+				AF3E29DF19A240000026E43D /* MJArgument.m */,
+				AF3E29E019A240000026E43D /* MJExtension.h */,
+				AF3E29E119A240000026E43D /* MJIvar.h */,
+				AF3E29E219A240000026E43D /* MJIvar.m */,
+				AF3E29E319A240000026E43D /* MJMember.h */,
+				AF3E29E419A240000026E43D /* MJMember.m */,
+				AF3E29E519A240000026E43D /* MJMethod.h */,
+				AF3E29E619A240000026E43D /* MJMethod.m */,
+				AF3E29E719A240000026E43D /* MJType.h */,
+				AF3E29E819A240000026E43D /* MJType.m */,
+				AF3E29E919A240000026E43D /* MJTypeEncoding.h */,
+				AF3E29EA19A240000026E43D /* MJTypeEncoding.m */,
+				AF3E29EB19A240000026E43D /* NSObject+MJCoding.h */,
+				AF3E29EC19A240000026E43D /* NSObject+MJCoding.m */,
+				AF3E29ED19A240000026E43D /* NSObject+MJKeyValue.h */,
+				AF3E29EE19A240000026E43D /* NSObject+MJKeyValue.m */,
+				AF3E29EF19A240000026E43D /* NSObject+MJMember.h */,
+				AF3E29F019A240000026E43D /* NSObject+MJMember.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		AF3E29F119A240000026E43D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A6719A241D30026E43D /* Category */,
+				AF3E29F219A240000026E43D /* Controller */,
+				AF3E29F719A240000026E43D /* Other */,
+				AF3E29FA19A240000026E43D /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AF3E29F219A240000026E43D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29F319A240000026E43D /* GDNavigationController.h */,
+				AF3E29F419A240000026E43D /* GDNavigationController.m */,
+				AF3E29F519A240000026E43D /* GDTabBarController.h */,
+				AF3E29F619A240000026E43D /* GDTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3E29F719A240000026E43D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29F819A240000026E43D /* GDAppDelegate.h */,
+				AF3E29F919A240000026E43D /* GDAppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AF3E29FA19A240000026E43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E29FB19A240000026E43D /* GDReadingNavigationBar.h */,
+				AF3E29FC19A240000026E43D /* GDReadingNavigationBar.m */,
+				AF3E29FD19A240000026E43D /* GDReadingNavigationBar.xib */,
+				AF3E29FE19A240000026E43D /* GDTabBar.h */,
+				AF3E29FF19A240000026E43D /* GDTabBar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF3E2A0019A240000026E43D /* Mark */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A0119A240000026E43D /* Controller */,
+				AF3E2A0419A240000026E43D /* Model */,
+				AF3E2A0519A240000026E43D /* View */,
+			);
+			path = Mark;
+			sourceTree = "<group>";
+		};
+		AF3E2A0119A240000026E43D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A0219A240000026E43D /* GDLibraryViewController.h */,
+				AF3E2A0319A240000026E43D /* GDLibraryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3E2A0419A240000026E43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF3E2A0519A240000026E43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A0619A240000026E43D /* GDLibraryNavigationBar.h */,
+				AF3E2A0719A240000026E43D /* GDLibraryNavigationBar.m */,
+				AF3E2A0819A240000026E43D /* GDLibraryNavigationBar.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF3E2A0919A240000026E43D /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A0A19A240000026E43D /* Controller */,
+				AF3E2A0D19A240000026E43D /* Model */,
+				AF3E2A0E19A240000026E43D /* View */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		AF3E2A0A19A240000026E43D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A0B19A240000026E43D /* GDSettingViewController.h */,
+				AF3E2A0C19A240000026E43D /* GDSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AF3E2A0D19A240000026E43D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF3E2A0E19A240000026E43D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF3E2A3E19A240400026E43D /* books */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A3F19A240400026E43D /* aizaixianjingderizi.txt */,
+				AF3E2A4019A240400026E43D /* anshizhangda.txt */,
+				AF3E2A4119A240400026E43D /* bixuejian.txt */,
+				AF3E2A4219A240400026E43D /* bubizhidaowoshishui.txt */,
+				AF3E2A4319A240400026E43D /* dangnigudannihuixiangqishui.txt */,
+				AF3E2A4419A240400026E43D /* hudielaiguozheshijie.txt */,
+				AF3E2A4519A240400026E43D /* liaiyigeIDdejuli.txt */,
+				AF3E2A4619A240400026E43D /* shalou.txt */,
+				AF3E2A4719A240400026E43D /* shinian.txt */,
+				AF3E2A4819A240400026E43D /* tangyi.txt */,
+				AF3E2A4919A240400026E43D /* tiaopin.txt */,
+				AF3E2A4A19A240400026E43D /* wobushinideyuanjia.txt */,
+				AF3E2A4B19A240400026E43D /* woyaowomenzaiyiqi.txt */,
+				AF3E2A4C19A240400026E43D /* xiaofudequnbai.txt */,
+				AF3E2A4D19A240400026E43D /* xiaoyaodejinsechengbao.txt */,
+				AF3E2A4E19A240400026E43D /* xinjing.txt */,
+				AF3E2A4F19A240400026E43D /* zuishuxidemoshengren.txt */,
+				AF3E2A5019A240400026E43D /* zuoer.txt */,
+				AF3E2A5119A240400026E43D /* zuoerzhongjie.txt */,
+			);
+			path = books;
+			sourceTree = "<group>";
+		};
+		AF3E2A6719A241D30026E43D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AF3E2A6819A241D30026E43D /* Singleton.h */,
+				AF3E2A6919A241D30026E43D /* UIImage+extension.h */,
+				AF3E2A6A19A241D30026E43D /* UIImage+extension.m */,
+				AF3E2A6B19A241D30026E43D /* UIView+Extension.h */,
+				AF3E2A6C19A241D30026E43D /* UIView+Extension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +709,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF3E298219A23FC60026E43D /* Images.xcassets in Resources */,
+				AF3E2A3819A240000026E43D /* GDReadingNavigationBar.xib in Resources */,
+				AF3E2A1F19A240000026E43D /* GDCollectionHeaderView.xib in Resources */,
+				AF3E2A5819A240400026E43D /* liaiyigeIDdejuli.txt in Resources */,
+				AF3E2A5319A240400026E43D /* anshizhangda.txt in Resources */,
+				AF3E2A6119A240400026E43D /* xinjing.txt in Resources */,
+				AF3E2A5619A240400026E43D /* dangnigudannihuixiangqishui.txt in Resources */,
+				AF3E2A1B19A240000026E43D /* GDBookListCell.xib in Resources */,
+				AF3E2A5519A240400026E43D /* bubizhidaowoshishui.txt in Resources */,
 				AF3E297419A23FC60026E43D /* InfoPlist.strings in Resources */,
+				AF3E2A6219A240400026E43D /* zuishuxidemoshengren.txt in Resources */,
+				AF3E2A5419A240400026E43D /* bixuejian.txt in Resources */,
+				AF3E2A6419A240400026E43D /* zuoerzhongjie.txt in Resources */,
+				AF3E2A1D19A240000026E43D /* GDBookTableViewCell.xib in Resources */,
+				AF3E2A2919A240000026E43D /* MBProgressHUD.bundle in Resources */,
+				AF3E2A5D19A240400026E43D /* wobushinideyuanjia.txt in Resources */,
+				AF3E2A6019A240400026E43D /* xiaoyaodejinsechengbao.txt in Resources */,
+				AF3E2A5919A240400026E43D /* shalou.txt in Resources */,
+				AF3E2A2219A240000026E43D /* GDReadingToolbar.xib in Resources */,
+				AF3E2A7019A2437C0026E43D /* books.sqlite in Resources */,
+				AF3E2A1219A240000026E43D /* GDBookInfoViewController.xib in Resources */,
+				AF3E2A5E19A240400026E43D /* woyaowomenzaiyiqi.txt in Resources */,
+				AF3E2A5F19A240400026E43D /* xiaofudequnbai.txt in Resources */,
 				AF3E297D19A23FC60026E43D /* Main.storyboard in Resources */,
+				AF3E2A5719A240400026E43D /* hudielaiguozheshijie.txt in Resources */,
+				AF3E2A5C19A240400026E43D /* tiaopin.txt in Resources */,
+				AF3E2A5B19A240400026E43D /* tangyi.txt in Resources */,
+				AF3E2A6319A240400026E43D /* zuoer.txt in Resources */,
+				AF3E2A5219A240400026E43D /* aizaixianjingderizi.txt in Resources */,
+				AF3E2A3C19A240000026E43D /* GDLibraryNavigationBar.xib in Resources */,
+				AF3E2A5A19A240400026E43D /* shinian.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +757,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF3E2A2E19A240000026E43D /* MJMethod.m in Sources */,
+				AF3E2A1119A240000026E43D /* GDBookInfoViewController.m in Sources */,
+				AF3E2A2319A240000026E43D /* FMDatabase.m in Sources */,
+				AF3E2A3A19A240000026E43D /* GDLibraryViewController.m in Sources */,
+				AF3E2A1419A240000026E43D /* GDReadingDetailViewController.m in Sources */,
+				AF3E2A3219A240000026E43D /* NSObject+MJKeyValue.m in Sources */,
+				AF3E2A2D19A240000026E43D /* MJMember.m in Sources */,
+				AF3E2A2519A240000026E43D /* FMDatabasePool.m in Sources */,
+				AF3E2A3619A240000026E43D /* GDAppDelegate.m in Sources */,
+				AF3E2A3319A240000026E43D /* NSObject+MJMember.m in Sources */,
+				AF3E2A6D19A241D30026E43D /* UIImage+extension.m in Sources */,
+				AF3E2A2119A240000026E43D /* GDReadingToolbar.m in Sources */,
+				AF3E2A1619A240000026E43D /* GDBook.m in Sources */,
+				AF3E2A3B19A240000026E43D /* GDLibraryNavigationBar.m in Sources */,
+				AF3E2A3019A240000026E43D /* MJTypeEncoding.m in Sources */,
 				AF3E297619A23FC60026E43D /* main.m in Sources */,
-				AF3E298019A23FC60026E43D /* GDViewController.m in Sources */,
-				AF3E297A19A23FC60026E43D /* GDAppDelegate.m in Sources */,
+				AF3E2A1C19A240000026E43D /* GDBookTableViewCell.m in Sources */,
+				AF3E2A2C19A240000026E43D /* MJIvar.m in Sources */,
+				AF3E2A3D19A240000026E43D /* GDSettingViewController.m in Sources */,
+				AF3E2A2B19A240000026E43D /* MJArgument.m in Sources */,
+				AF3E2A1319A240000026E43D /* GDHomeViewController.m in Sources */,
+				AF3E2A1A19A240000026E43D /* GDBookListCell.m in Sources */,
+				AF3E2A2F19A240000026E43D /* MJType.m in Sources */,
+				AF3E2A3919A240000026E43D /* GDTabBar.m in Sources */,
+				AF3E2A1719A240000026E43D /* GDBookHandler.m in Sources */,
+				AF3E2A2819A240000026E43D /* MBProgressHUD+NJ.m in Sources */,
+				AF3E2A2019A240000026E43D /* GDBookTextView.m in Sources */,
+				AF3E2A3719A240000026E43D /* GDReadingNavigationBar.m in Sources */,
+				AF3E2A1519A240000026E43D /* GDReadingViewController.m in Sources */,
+				AF3E2A2A19A240000026E43D /* MBProgressHUD.m in Sources */,
+				AF3E2A6E19A241D30026E43D /* UIView+Extension.m in Sources */,
+				AF3E2A1819A240000026E43D /* GDBookText.m in Sources */,
+				AF3E2A2719A240000026E43D /* FMResultSet.m in Sources */,
+				AF3E2A1919A240000026E43D /* GDBookTool.m in Sources */,
+				AF3E2A1E19A240000026E43D /* GDCollectionHeaderView.m in Sources */,
+				AF3E2A3119A240000026E43D /* NSObject+MJCoding.m in Sources */,
+				AF3E2A2619A240000026E43D /* FMDatabaseQueue.m in Sources */,
+				AF3E2A2419A240000026E43D /* FMDatabaseAdditions.m in Sources */,
+				AF3E2A3519A240000026E43D /* GDTabBarController.m in Sources */,
+				AF3E2A3419A240000026E43D /* GDNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

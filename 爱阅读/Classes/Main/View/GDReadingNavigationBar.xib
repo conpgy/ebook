@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="SOd-AK-whr" customClass="GDReadingNavigationBar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pc_nav_bg" translatesAutoresizingMaskIntoConstraints="NO" id="8tA-i6-UZL">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnQ-b9-EqC" userLabel="返回">
+                    <rect key="frame" x="20" y="31" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="toolbar_back">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="highlighted" image="toolbar_back_hl"/>
+                    <connections>
+                        <action selector="back" destination="SOd-AK-whr" eventType="touchUpInside" id="W7l-h0-6G4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mWB-IB-gfn" userLabel="书签">
+                    <rect key="frame" x="278" y="31" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="toolbar_bookmark_add">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="toolbar_bookmark_remove"/>
+                    <state key="highlighted" image="toolbar_bookmark_add_hl"/>
+                    <connections>
+                        <action selector="bookmark:" destination="SOd-AK-whr" eventType="touchUpInside" id="Kru-Nq-dAw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iZn-2X-HCu" userLabel="书签">
+                    <rect key="frame" x="149" y="31" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="toolbar_font">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="toolbar_bookmark_remove"/>
+                    <state key="highlighted" image="toolbar_font_hl"/>
+                    <connections>
+                        <action selector="textFont" destination="SOd-AK-whr" eventType="touchUpInside" id="83H-qO-dDJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Twb-Kl-MmG" userLabel="书签">
+                    <rect key="frame" x="82" y="31" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="toolbar_chapter">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="toolbar_bookmark_remove"/>
+                    <state key="highlighted" image="toolbar_chapter_hl"/>
+                    <connections>
+                        <action selector="bookInfo" destination="SOd-AK-whr" eventType="touchUpInside" id="yVK-XL-DEE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWR-lb-Naj" userLabel="书签">
+                    <rect key="frame" x="217" y="31" width="22" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="toolbar_search">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" image="toolbar_bookmark_remove"/>
+                    <state key="highlighted" image="toolbar_search_hl"/>
+                    <connections>
+                        <action selector="search" destination="SOd-AK-whr" eventType="touchUpInside" id="fyC-NE-Ru3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pc_nav_bg" width="20" height="49"/>
+        <image name="toolbar_back" width="22" height="22"/>
+        <image name="toolbar_back_hl" width="22" height="22"/>
+        <image name="toolbar_bookmark_add" width="22" height="22"/>
+        <image name="toolbar_bookmark_add_hl" width="22" height="22"/>
+        <image name="toolbar_bookmark_remove" width="17" height="25"/>
+        <image name="toolbar_chapter" width="29" height="29"/>
+        <image name="toolbar_chapter_hl" width="29" height="29"/>
+        <image name="toolbar_font" width="29" height="29"/>
+        <image name="toolbar_font_hl" width="29" height="29"/>
+        <image name="toolbar_search" width="23" height="23"/>
+        <image name="toolbar_search_hl" width="23" height="23"/>
+    </resources>
+</document>
