@@ -20,7 +20,6 @@
     [navBar setBackgroundImage:[UIImage resizedImage:@"bc_navi_bar"] forBarMetrics:UIBarMetricsDefault];
 }
 
-
 -(void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
 {
     if (self.viewControllers.count > 0) {

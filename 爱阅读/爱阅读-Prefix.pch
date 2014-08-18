@@ -16,8 +16,8 @@
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 #import "MJExtension.h"
-#import "UIImage+extension.h"
 #import "UIView+Extension.h"
+#import "UIImage+extension.h"
 #ifdef DEBUG // 调试状态, 打开LOG功能
 #define GDLog(...) NSLog(__VA_ARGS__)
 #else // 发布状态, 关闭LOG功能
